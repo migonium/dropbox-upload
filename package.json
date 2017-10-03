@@ -4,9 +4,11 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "aws-sdk": "^2.125.0",
     "dropbox": "^2.5.10",
     "dropbox-stream": "^1.0.5",
-    "request": "^2.83.0"
+    "request": "^2.83.0",
+    "s3": "^4.4.0"
   },
   "devDependencies": {},
   "scripts": {
