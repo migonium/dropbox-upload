@@ -18,6 +18,6 @@ let up = db.createDropboxUploadStream(opts)
 
 let regexp = new RegExp('http(s):\/\/.+');
 
-let stream = (regexp.test(src)) ? request.get(src) : fs.createReadStream(src).pipe(up);
+let stream = (regexp.test(src)) ? request.get(src) : fs.createReadStream(src);
 
 stream.pipe(up);
