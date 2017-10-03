@@ -1,4 +1,5 @@
 # dropbox-upload
 
-to install: npm i
-to use: node index.js your-file-src-local-or-web
+**To install:** npm i
+
+**To use:** node index.js your-file-src-local-or-web
